@@ -8,7 +8,7 @@
                         <a href="" class="result-link">
                             <div class="result-title">{{ post.title }}</div>
                             <div class="result-content">
-                                {{ post.description }}
+                                {{ post.description.substr(1, 50) }}
                             </div>
                         </a>
                     </li>
